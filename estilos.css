@@ -1,0 +1,166 @@
+/*Import Fuentes*/
+
+/* Kaushan */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+/* Estilos Fondo Landing*/
+.landing{
+    height: 100vh;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Tipografía para el Logo*/
+.landing h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* Custom Button */
+
+.btn{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.btn:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+
+/*Navbar*/
+.navbar{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 100%);
+}
+
+/*Primer scroll interior*/
+.primerscroll {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(/img/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .primerscroll p, .primerscroll .h1 {
+    font-size: 2.25rem;
+
+  }
+  @media (min-width: 992px) {
+    .primerscroll {
+      min-height: 75vh;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+    .primerscroll p {
+      font-size: 1.15rem;
+    }
+    .primerscroll h1, .primerscroll .h1 {
+      font-size: 3rem;
+    }
+
+  }
+  @media (min-width: 1200px) {
+    .primerscroll h1, .primerscroll .h1 {
+      font-size: 3.5rem;
+    }
+  }
+  
+
+/* Contacto */
+.container2 {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.contacto{
+    background-color: rgb(209, 127, 50);
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+    background-color: rgb(209, 127, 50);
+	padding:25px;
+}
+
+#contact h3 {
+	color: rgb(54, 10, 41);
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(0, 0, 0);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:rgb(59, 59, 59);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
